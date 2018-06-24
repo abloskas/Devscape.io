@@ -9,15 +9,14 @@
 	-->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Coming Soon Page</title>
-
+  <title>Devscape.io</title>
+  <link rel="shortcut icon" type="image/png" href="/favicon_symbol.png" />
   <meta name="generator" content="comingsoonpage.com 1.0.0" />
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/favicon.ico">
   <meta property="og:url" content="" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="My Coming Soon Page" />
+  <meta property="og:title" content="Devscape" />
   <meta property="og:description" content="" />
 
   <!-- Font Awesome CSS -->
@@ -65,8 +64,19 @@
     }
 
     .LOGO {
-      font-size: 4em;
-      font-family: 'Tauri';
+      /* font-size: 3em;
+      font-family: 'Tauri'; */
+      text-align: center;
+      height: 300px;
+      width: 500px;
+    }
+
+    @media (max-width: 480px) {
+      .LOGO {
+        width: 250px;
+        height: 150px;
+        margin: 0 auto;
+      }
     }
 
     .flexbox #cspio-page {
@@ -302,7 +312,7 @@
     <div id="cspio-content">
 
       <!-- <img id="cspio-logo" src="https://static.comingsoonpage.com/cspio-assets/1.0.0/seedprod-logo-white.png"> -->
-      <span class="LOGO">Devscape.io</span>
+      <img src="/white_logo_transparent.png" alt="Logo" class="LOGO" />
 
       <h1 id="cspio-headline">Web Dev Coming Soon</h1>
 
